@@ -1,0 +1,46 @@
+package java_basic;
+
+
+/** 
+ * -> this is api documentation comment
+ *  This class is for testing integer value;
+ * we will test test byte,short,int,long,char 
+ * @author Zaw Min Khant
+ * @since 2.1 ->testing;
+
+ */
+public class IntegerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		short shortValue1= 27000;
+		short shortValue2=-30000;
+//		short shortValue3=40000;
+		System.out.println("");
+		System.out.println(shortValue1);
+		System.out.println(shortValue2);
+//		 byte byteVal; //declare
+//		byteVal=-120;
+//		byte byteVal2;
+//		byteVal2=+127;
+//	//	byte byteVal3=- 200;
+//		byte maxByte=Byte.MAX_VALUE;
+//		byte minByte=Byte.MIN_VALUE;
+//		byte byteValue3=80;
+//		
+//		System.out.println(/*byteVal -> short comment  */ byteValue3);
+//		System.out.println(byteVal2); /* 127 -> trail comment */ 
+		
+		/* -> multi line comment
+		System.out.println(maxByte);
+		System.out.println(minByte);
+		
+		*/ 
+		
+
+		
+
+	}
+
+}

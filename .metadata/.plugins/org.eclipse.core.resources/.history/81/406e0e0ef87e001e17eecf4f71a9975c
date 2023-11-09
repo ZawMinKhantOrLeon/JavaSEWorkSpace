@@ -1,0 +1,26 @@
+package java_basic;
+
+public class IntegerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		byte byteVal; //declare
+		byteVal=-120;
+		byte byteVal2;
+		byteVal2=+127;
+	//	byte byteVal3=- 200;
+		byte maxByte=Byte.MAX_VALUE;
+		byte minByte=Byte.MIN_VALUE;
+		byte byteValue3=80;
+		System.out.println(byteValue3);
+		System.out.println(byteVal);
+		System.out.println(byteVal2);
+		System.out.println(maxByte);
+		System.out.println(minByte);
+
+		
+
+	}
+
+}
