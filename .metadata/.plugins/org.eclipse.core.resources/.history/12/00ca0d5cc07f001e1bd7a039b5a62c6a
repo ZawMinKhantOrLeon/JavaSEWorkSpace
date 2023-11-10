@@ -1,0 +1,21 @@
+package polymorphism;
+
+public class ZooMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Cat cat1=new Cat();
+		Cat cat2=new Cat();
+		Cat cat3=new Cat();
+		
+		Zoo zoo=new Zoo();
+		zoo.addCat(cat1,0);
+		zoo.addCat(cat2,1);
+		zoo.addCat(cat3,1);
+		
+		zoo.showCat();
+
+	}
+
+}

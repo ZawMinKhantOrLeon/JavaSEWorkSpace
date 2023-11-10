@@ -1,0 +1,21 @@
+package polymorphism;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Cat cat=new Cat();
+		cat.makeSound();
+		cat.eat();
+		cat.walk();
+		
+		
+		Dog dog=new Dog();
+		dog.makeSound();
+		dog.eat();
+		dog.walk();
+
+	}
+
+}

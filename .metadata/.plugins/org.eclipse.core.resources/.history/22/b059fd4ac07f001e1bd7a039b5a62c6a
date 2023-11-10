@@ -1,0 +1,27 @@
+package polymorphism;
+
+public class Zoo {
+		
+	private Cat[] cats= new Cat[10];
+	
+	protected void addCat(Cat cat,int index) {
+		System.out.println("Added : "+ cat);
+		cats[index]=cat;
+	}
+	
+	public void showCat() {
+		
+		int i=1;
+		for(final Cat cat: cats) {
+			if(cat == null) continue;
+			System.out.println(" Cat # " + i + " - "+cat);
+			cat.makeSound();
+			cat.eat();
+			cat.walk();
+			System.out.println("");
+			i++;
+		}
+	
+	}
+	
+}

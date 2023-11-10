@@ -1,0 +1,21 @@
+package java_basic;
+
+public class FloatingPointsTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		float floatValue=24.456789994F;
+		float floatValue1=-3.116786999F;
+		float floatMax=Float.MAX_VALUE;
+		float floatMin=Float.MIN_VALUE;
+		System.out.println(floatValue);
+		System.out.println(floatValue1);
+		System.out.println(floatMax);
+		System.out.println(floatMin);
+//		System.out.printf(" Max Value = %f %n", floatMax);
+//		System.out.printf(" Min Value = %f ", floatMin);
+		
+	}
+
+}

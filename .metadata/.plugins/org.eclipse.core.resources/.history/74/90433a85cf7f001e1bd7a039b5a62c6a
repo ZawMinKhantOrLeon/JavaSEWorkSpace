@@ -1,0 +1,10 @@
+package prevent_polymorphism;
+
+public class Test extends PasswordGenerator{
+	
+	@Override
+	
+	public String generator() {
+		return "000000";
+	}
+}

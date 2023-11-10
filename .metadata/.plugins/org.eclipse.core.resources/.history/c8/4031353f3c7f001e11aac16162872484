@@ -1,0 +1,12 @@
+package polymorphism;
+
+public class Gorilla extends Animal{
+	
+	protected void eat() {
+		System.out.println("Banana");
+	}
+	
+	protected walk() {
+		System.out.println("Walk like human");
+	}
+}
