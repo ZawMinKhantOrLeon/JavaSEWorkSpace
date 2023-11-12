@@ -1,0 +1,23 @@
+package java_basic;
+
+public class BasicOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=40;
+		int b=70;
+		int result1=a+b;
+		
+		System.out.printf("A + B = %d%n", result1);
+		System.out.printf("34.5 - 20.33 = %.2f%n ", 34.5-20.33);
+		
+		
+		int result2=a*b;
+		System.out.printf("A * B = %d%n", result2);
+		System.out.printf("20 / 3 = %d%n", 20 / 3);
+		System.out.printf("20 / 3 = %.2f%n", 20.0 / 3.0);
+		System.out.printf(" 20 modulus 3 = %d%n", 20 % 3);
+
+	}
+
+}

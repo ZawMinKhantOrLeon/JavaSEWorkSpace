@@ -1,0 +1,15 @@
+package java_basic;
+
+public class RelationalOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x=20;
+		int y=12;
+		
+		boolean result1= y < x;
+		System.out.println(result1);
+	}
+
+}
