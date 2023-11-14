@@ -10,9 +10,9 @@ public class LogicalOperators {
 		
 	//	boolean result1= ++x  < y && ++y < z && ++z > x; -> not short circuit;
 		
-//		boolean result1= ++x  < y && ++y > z && ++z > x; -> short circuit;
+//		boolean result1= ++x  < y && ++y > z && ++z > x;
 		
-		boolean result2 = ++x < y || ++y < z || ++z > x; // -> short circuit;
+		boolean result2 = ++x < y || ++y < z || ++z > x;
 		System.out.println(result2);
 		System.out.println(x);
 		System.out.println(y);
