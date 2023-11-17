@@ -1,0 +1,15 @@
+package java_basic;
+
+public class ExplicitCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int val1 =1200;
+		byte val2 = (byte) val1;
+		
+		System.out.println(val1);
+		System.out.println(val2);
+		
+	}
+
+}

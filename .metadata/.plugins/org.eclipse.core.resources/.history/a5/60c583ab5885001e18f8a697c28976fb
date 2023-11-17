@@ -1,0 +1,16 @@
+package java_basic;
+
+public class ImplicitCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		byte val1= 127;
+		short val2 =val1; // casting // implicitCasting // no data loss
+		
+		System.out.printf("Original Value :  %d%n" , val1);
+		
+		
+	}
+
+}
