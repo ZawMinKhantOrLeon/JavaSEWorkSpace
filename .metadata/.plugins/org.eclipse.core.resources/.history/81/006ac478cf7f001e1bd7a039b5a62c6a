@@ -1,5 +1,0 @@
-package prevent_polymorphism;
-
-public class Test extends PasswordGenerator{
-
-}
