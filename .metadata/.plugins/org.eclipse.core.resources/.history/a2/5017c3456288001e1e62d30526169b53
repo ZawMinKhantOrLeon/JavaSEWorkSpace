@@ -6,7 +6,6 @@ public class TypePromotion {
 		// TODO Auto-generated method stub
 		int a =100;
 		double b=25.345;
-		
 		System.out.println((double)a+b);
 	}
 

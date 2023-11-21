@@ -1,0 +1,23 @@
+package java_basic;
+
+import java.util.Scanner;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Prime Finder");
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("Enter A Integer Number");
+		int number= userInput.nextInt();
+		userInput.close();
+//		int i=1;
+//		for(; i <=1000 ;i++,System.out.println("Current I value : " + i)) System.out.println(i);
+//		
+//		System.out.printf("Final Value of i = %d%n",i);
+//		
+	//	for(int i=1; i <=1500 ;i++) System.out.println(i+ " I Love You");
+	}
+
+}
