@@ -1,0 +1,39 @@
+package assignment1;
+
+import java.util.Scanner;
+
+public class AssignmentOne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// switching a and b without using third variable;
+		
+		char v1='a';
+		char v2='b';
+		
+		v1=(char) ((int) v1+v2);
+		v2=(char) ((int) v1-v2);
+		v1=(char) ((int) v1-v2);
+		 
+		System.out.println("a - b : " + v1 + " - " + v2);
+		 
+		
+		// Area of triangle
+		
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("Enter Bottom Value Of Triangle");
+		double b= userInput.nextDouble();
+		System.out.println("Enter Heigh Value Of Triangle");
+		double h= userInput.nextDouble();
+		
+		double result = (b * h) / 2;
+		
+		System.out.println("Area of the triangle is : " + result);
+		
+		 
+		
+		
+	}
+
+}
