@@ -1,0 +1,16 @@
+package java_basic;
+
+public class StringCreation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1="Hello"; // interning -> string pool -> Hello
+		String s2="Hello"; // interning -> reference of existed hello obj;
+		System.out.println(s1); // s1's address -> object -> state 
+		
+		System.out.println("S1 == S2 ?" + s1==s2); // concatenation;
+	}
+	
+		
+
+}

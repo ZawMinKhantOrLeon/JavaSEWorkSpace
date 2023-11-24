@@ -1,0 +1,18 @@
+package java_basic;
+
+public class StringOperations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String test= "My name is MgMg.";
+		
+		// Examine Character;
+		
+		char smallM=test.charAt(5);
+		System.out.println("Small M = " + smallM);
+		
+		char smallI = test.charAt(8);
+		System.out.println("Small I = " + smallI);
+	}
+
+}

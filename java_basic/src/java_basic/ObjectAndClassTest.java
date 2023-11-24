@@ -17,6 +17,7 @@ public class ObjectAndClassTest {
 		ciaz.price=4000.345;;
 		ciaz.year=2022;
 		ciaz.speedPerKM=100;
+		ciaz.numberOfWheels=8;
 		
 		ciaz.engineStart();
 		ciaz.drive();
@@ -24,7 +25,19 @@ public class ObjectAndClassTest {
 		ciaz.brake();
 		ciaz.information();
 		
-		System.out.println(ciaz.numberOfWheels); // should not do this;
+		Car hilux = new Car();
+		hilux.brand="hilux-GT";
+		hilux.price=120000.22;
+		hilux.year=2023;
+		hilux.speedPerKM=200;
+		
+		hilux.engineStart();
+		hilux.drive();
+		hilux.horn();
+		hilux.brake();
+		hilux.information();
+		System.out.println(hilux.numberOfWheels);
+		//System.out.println(ciaz.numberOfWheels); // should not do this;
 //		System.out.println(ciaz.brand);
 //		System.out.println(ciaz.model);
 //		System.out.println(ciaz.price);
