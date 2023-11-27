@@ -8,21 +8,36 @@ public class ForLoop {
 		// TODO Auto-generated method stub
 		
 		
-		//nested loop
 		
-		System.out.println("Pattern Program");
-		Scanner userInput = new Scanner(System.in);
-		System.out.println("Enter A Pattern : ");
-		int pattern= userInput.nextInt();
-		userInput.close();
 		
-		for(int i=1 ; i <= pattern ; i++) {
-			for( int k=1 ; k <= pattern ; k++) {
-				System.out.printf("%d ", i);
-			}
-			System.out.println("");
+		String [] fruits= {"Apple","Orange","Banana","Papaya","Kiwi"};
+		
+		
+		// good practice;
+		for(String tempVar:fruits) {
+			System.out.println(tempVar);
 		}
 		
+		//bad practice
+		
+//		for (int i = 0; i < fruits.length; i++) {
+//			System.out.println(fruits[i]);
+//		}
+		//nested loop
+		
+//		System.out.println("Pattern Program");
+//		Scanner userInput = new Scanner(System.in);
+//		System.out.println("Enter A Pattern : ");
+//		int pattern= userInput.nextInt();
+//		userInput.close();
+//		
+//		for(int i=1 ; i <= pattern ; i++) {
+//			for( int k=1 ; k <= pattern ; k++) {
+//				System.out.printf("%d ", i);
+//			}
+//			System.out.println("");
+//		}
+//		
 		
 //		
 //		for(int i=0; i < 4 ; i++) {
