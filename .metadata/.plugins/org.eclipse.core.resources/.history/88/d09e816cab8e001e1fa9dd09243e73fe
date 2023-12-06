@@ -1,0 +1,42 @@
+package java_basic;
+
+public class MaxFinder {
+	
+	int max(int number1 , int number2) {
+		int result = number1 > number2 ? number1:number2;
+		
+		return result;
+	}
+	
+	double maxDouble (double number1, double number2, double number3) {
+		
+		double max =number1;
+		
+		if(number2 > max) {
+			max =number2;
+		}
+		if(number3 > max) {
+			max =number3;
+		}
+		
+		return max;
+		
+	}
+	
+	String maxString (String str1,String str2) {
+		
+		String maxStr="";
+		
+		for(int i =0 ; i < str1.length() ; i++) {
+			if(str1.charAt(i) > str2.charAt(i)) {
+				maxStr= str1;
+			}else {
+				maxStr= str2;
+			}
+		}
+		return maxStr;
+		
+	}
+	
+}
+

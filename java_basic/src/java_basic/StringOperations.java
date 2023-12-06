@@ -5,11 +5,31 @@ public class StringOperations {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String test= "My name is MgMg.";
-		String emptyString="";
+		
+		
+		// escaping char;
+		
+		String mgmgWord="mgmg said \"I want to become programmer\""; 
+		System.out.println(mgmgWord);
+		String str1 = "I like an 'Areoplane'";
+		System.out.println(str1);
+		char singleQuote='\'';
+		System.out.println(singleQuote);
+		
+//		String countries= "Myanmar,Japan,Thailand,Korea,UK";
+//		String[] splitedString= countries.split(",");
+//		
+//		for(String tempVar:splitedString) {
+//			System.out.println(tempVar);
+//		}
+//		
+//		String joinedString= String.join("-", splitedString);
+//		System.out.println(joinedString);
+//		String test= "My name is MgMg.";
+//		String emptyString="";
 		//String nullString =null;
-		String blankString="  ";
-		String spacedString= "         I am      spaced Text.          ";
+//		String blankString="  ";
+//		String spacedString= "         I am      spaced Text.          ";
 		
 
 			

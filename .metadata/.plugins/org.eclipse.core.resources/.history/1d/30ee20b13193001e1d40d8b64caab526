@@ -1,0 +1,41 @@
+package java_basic;
+
+public class Employee {
+	long id;
+	String name;
+	String email;
+	String role;
+	double salary;
+	
+	 Employee(){
+		System.out.println("Inside Employee No Arguments Constructor");
+	}
+	 
+   Employee(String updateEmail,String updateRole){
+		 
+		 System.out.println("Inside Employee All Arguments Constructor");
+		 email=updateEmail;
+		 role=updateRole;
+		
+	 }
+	 
+	 Employee(long updateId,String updateName,String updateEmail,String updateRole,double updateSalary){
+		 
+		 this("newEmail","new Role");
+		 // this() can only call one recursive constructor;
+		 System.out.println("Inside Employee All Arguments Constructor");
+		 id=updateId;
+		 name=updateName;
+		// email=updateEmail;
+		// role=updateRole;
+		 salary=updateSalary;
+	 }
+	
+	void update(long updateId,String updateName,String updateEmail,String updateRole,double updateSalary) {
+		 id=updateId;
+		 name=updateName;
+		 email=updateEmail;
+		 role=updateRole;
+		 salary=updateSalary;
+	}
+}

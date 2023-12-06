@@ -1,0 +1,16 @@
+package access_modifier;
+
+public class GameCharactor {
+	
+	public static int baseDmg=100;
+	
+	public String name;
+	public int hp;
+	public int mp;
+	public int damage;
+	
+	
+	public void attack(GameCharactor otherCharactor) {
+			otherCharactor.hp -= baseDmg+ damage;
+	}
+}

@@ -1,0 +1,29 @@
+package java_basic;
+
+import java.util.Scanner;
+
+public class ScientificCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("1 . Two operand operations  2 .  One operand operations");
+		int operandDecision = userInput.nextInt();
+		System.out.println("Enter Operand One");
+		double operandOne = userInput.nextDouble();
+		
+		switch (operandDecision) {
+		case 1 ->{
+			
+		}
+		
+		case 2 -> {
+			
+		}
+		
+		default -> System.out.println("Invalid Operation");
+		      
+		}
+	}
+
+}

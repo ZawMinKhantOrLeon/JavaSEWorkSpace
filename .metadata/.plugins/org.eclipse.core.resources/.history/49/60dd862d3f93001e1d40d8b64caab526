@@ -1,0 +1,23 @@
+package java_basic;
+
+public class ValueTypeVsReferenceType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=10;
+		addOne(x);
+		System.out.println("current value of x : " + x);
+	}
+	
+	static void addOne(int x) {
+		x++;
+		System.out.println(x);
+	}
+	
+	static void addArrayOne(int[] array) {
+		for( int element : array) {
+			element = element+1;
+		}
+	}
+
+}

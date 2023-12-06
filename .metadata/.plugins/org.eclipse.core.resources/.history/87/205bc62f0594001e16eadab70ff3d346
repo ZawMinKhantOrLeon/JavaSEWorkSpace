@@ -1,0 +1,31 @@
+package com.hostmdy.test;
+
+public class A {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		B b = new B();
+		b.methodOne();
+		
+		com.hostmdy.other.C c =new com.hostmdy.other.C ();
+		c.methodC();
+		
+	}
+
+}
+
+
+
+// compiler convert
+
+//public class com.hostmdy.test.A {
+//
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		
+//		com.hostmdy.test.B b = new com.hostmdy.test.B();
+//		b.methodOne();
+//	}
+//
+//}

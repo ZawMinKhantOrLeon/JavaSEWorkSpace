@@ -1,0 +1,19 @@
+package java_basic;
+
+public class MethodAccess {
+	
+	
+	int instanceVar=10000;
+	
+	void instanceMethod() {
+		System.out.println("Inside Instance Method");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MethodAccess methodAccess = new MethodAccess();
+		System.out.println(methodAccess.instanceVar);
+		methodAccess.instanceMethod();
+	}
+
+}
