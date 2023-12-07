@@ -1,0 +1,29 @@
+package final_modifier;
+
+import java.util.Scanner;
+
+public class Client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("### Client App ###");
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("Enter Your Username");
+		String userName = userInput.nextLine();
+		System.out.println("Enter Your Password");
+		String password = userInput.nextLine();
+		userInput.close();
+		
+		Authentication auth = FakeDatabase.authenticate(userName, password);
+		if(auth != null) {
+			System.out.println("Welcome : " + auth.username);
+			System.out.println("Login Granted");
+		}
+		else {
+			System.out.println("Hello Stranger , Login Access is denied");
+		}
+		
+	}
+
+}

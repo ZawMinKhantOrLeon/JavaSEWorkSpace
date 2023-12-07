@@ -10,8 +10,6 @@ public class GameCharactor {
 	public int damage;
 	
 	
-	
-	
 	public GameCharactor(String name, int hp, int mp, int damage) {
 		
 		this.name = name;

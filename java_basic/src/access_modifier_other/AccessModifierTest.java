@@ -11,7 +11,7 @@ public class AccessModifierTest {
 		
 		noobMaster99.getStatus();
 		System.out.println("");
-		chouProLay.getStatus();
+		chouProLay.getStatus(); 
 		
 		System.out.println("");
 		noobMaster99.attack(chouProLay);

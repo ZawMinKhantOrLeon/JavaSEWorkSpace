@@ -1,0 +1,11 @@
+package box_primitive;
+
+public class BoxPrimitive {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer intObj = new Integer(1000);
+		System.out.println(" intObj :" + intObj);
+	}
+
+}

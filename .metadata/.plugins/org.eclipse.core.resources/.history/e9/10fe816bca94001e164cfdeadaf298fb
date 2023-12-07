@@ -1,0 +1,27 @@
+package box_primitive;
+
+public class BoxPrimitive {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer intObj = new Integer(1000);
+		System.out.println("intObj :" + intObj);
+		
+		int a = 5000;
+		Integer intObj2 = new Integer(a);
+		
+		int b = intObj2.intValue();
+		byte d= intObj2.byteValue();
+		short e = intObj2.shortValue();
+		
+		
+		System.out.println("intObj2 : "+ intObj2);
+		
+		System.out.println("b : "+ b);
+		System.out.println("d : "+ b);
+		System.out.println("e : "+ b);
+
+	}
+	
+
+}
