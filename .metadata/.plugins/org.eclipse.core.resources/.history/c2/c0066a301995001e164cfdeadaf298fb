@@ -1,0 +1,21 @@
+package inheritance;
+
+public class Developer {
+	
+	String name;
+	String role;
+	String email;
+	String developerCode;
+	
+	void writeCode() {
+		System.out.println("Developer is writing code");
+	}
+	
+	void thinkALgorithm() {
+		System.out.println("Developer is thinking algorithm");
+	}
+	
+	void createClassDesign() {
+		System.out.println("Developer is creating class design");
+	}
+}

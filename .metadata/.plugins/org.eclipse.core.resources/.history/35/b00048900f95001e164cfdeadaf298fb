@@ -1,0 +1,11 @@
+package encapsulaion;
+
+class Person {
+	
+	
+	private String firstName;
+	private String nrc;
+	private Integer age;
+	
+	
+}

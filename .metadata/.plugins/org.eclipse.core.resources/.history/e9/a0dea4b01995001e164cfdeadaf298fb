@@ -1,0 +1,23 @@
+package inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Programmer programmer = new Programmer();
+		Developer developer = new Developer();
+		 programmer.email = "m@gmail.com";
+		 programmer.name= "mgmg";
+		 programmer.role = "junior programmer";
+		 programmer.programmerCode= "P101";
+		 
+		 programmer.writeCode();
+		 programmer.thinkALgorithm();
+		 programmer.testing();
+		 
+		 System.out.println("Role is : " + programmer.role);
+		 System.out.println("Email is : " + programmer.email);
+		 System.out.println("Code is : " + programmer.programmerCode);
+	}
+
+}
