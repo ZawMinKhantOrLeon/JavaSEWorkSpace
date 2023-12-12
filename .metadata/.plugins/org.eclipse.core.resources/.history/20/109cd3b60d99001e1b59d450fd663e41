@@ -1,0 +1,8 @@
+package prevent_inheritance;
+
+public class Sender {
+	
+	private String address;
+	
+	
+}

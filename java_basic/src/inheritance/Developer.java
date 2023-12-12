@@ -1,19 +1,15 @@
 package inheritance;
 
-public class Developer {
+public class Developer extends ITEmployee {
 	
-	String name;
-	String role;
-	String email;
+
 	String developerCode;
 	
-	void writeCode() {
-		System.out.println(name+" is writing code");
+	public Developer() {
+		super();
+		System.out.println("Inside Developer No arga constructor");
 	}
 	
-	void thinkALgorithm() {
-		System.out.println(name+" is thinking algorithm");
-	}
 	
 	void createClassDesign() {
 		System.out.println(name+" is creating class design");

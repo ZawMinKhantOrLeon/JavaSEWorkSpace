@@ -1,0 +1,13 @@
+package prevent_inheritance;
+
+public class Recipient {
+	
+	private String address;
+	
+	public void readMail() {
+		
+		For(final Email email:EmailServer.readEmail()){
+			
+		}
+	}
+}

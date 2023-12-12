@@ -1,21 +1,16 @@
 package inheritance;
 
-public class Designer {
+public class Designer extends ITEmployee {
 	
-	String name;
-	String role;
-	String email;
+	
 	String designerCode;
 	
-	void writeCode() {
-		System.out.println(name + " is writing code");
+	public Designer() {
+		super("Zaw Min Khant");
+		System.out.println("Inside Designer no args Constructor");
 	}
 	
-	void thinkALgorithm() {
-		System.out.println(name+" is thinking algorithm");
-	}
-	
-	void testing() {
+	void createArt() {
 		System.out.println(name+" is creating Art");
 	}
 }

@@ -1,21 +1,22 @@
 package inheritance;
 
-public class Programmer {
+public class Programmer extends ITEmployee {
 	
-	String name;
-	String role;
-	String email;
+	
 	String programmerCode;
+	int passcode = 2233;
 	
-	void writeCode() {
-		System.out.println(name+" is writing code");
+	public Programmer() {
+		
+		super();
+		System.out.println("Inside Programmer no args constructor");
+		System.out.println("passcode : " + super.passcode);
 	}
 	
-	void thinkALgorithm() {
-		System.out.println(name+" is thinking algorithm");
-	}
-	
+
 	void testing() {
+		//System.out.println(secrect);
+		
 		System.out.println(name+" is testing");
 	}
 }

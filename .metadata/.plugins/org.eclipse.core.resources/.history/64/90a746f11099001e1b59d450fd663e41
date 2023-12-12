@@ -1,0 +1,10 @@
+package prevent_inheritance;
+
+public class HackZoe {
+	
+	private String bankAccount;
+	
+	public void hijeck() {
+		
+	}
+}

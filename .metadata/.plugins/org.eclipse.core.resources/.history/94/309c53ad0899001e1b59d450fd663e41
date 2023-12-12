@@ -1,0 +1,10 @@
+package prevent_inheritance;
+
+public class CircleUtility {
+	
+	static public final double PI=3.142;
+		
+	public static double area(double r) {
+		return PI*r*r;
+   }
+}

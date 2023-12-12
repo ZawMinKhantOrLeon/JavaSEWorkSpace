@@ -1,0 +1,6 @@
+package prevent_inheritance;
+
+public class EmailServer {
+	
+	static final private Email[] emailArray = new Email[20];
+}

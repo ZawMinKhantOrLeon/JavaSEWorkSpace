@@ -1,0 +1,16 @@
+package prevent_inheritance;
+
+public class EmailClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Sender mgmg = new Sender("mgmg@gmail.com");
+		
+		mgmg.sendEmail("masapal@gmail.com", "just Greeting", "greet.txt", 1);
+		
+		Recipient masapal = new Recipient("masapal@gmail.com");
+		masapal.readMail();
+	}
+
+}

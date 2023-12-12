@@ -1,0 +1,20 @@
+package inheritance;
+
+public class ITEmployee {
+	
+	String name;
+	String role;
+	String email;
+	
+	public ITEmployee(){
+		System.out.println("Insie ITEmployee no args constructor");
+	}
+	
+	void writeCode() {
+		System.out.println(name+" is writing code");
+	}
+	
+	void thinkALgorithm() {
+		System.out.println(name+" is thinking algorithm");
+	}
+}
