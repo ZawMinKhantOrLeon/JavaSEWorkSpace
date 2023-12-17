@@ -1,9 +1,0 @@
-package encapsulaion;
-
-class Person {
-	public String firstName;
-	public String nrc;
-	public Integer age;
-	
-	
-}

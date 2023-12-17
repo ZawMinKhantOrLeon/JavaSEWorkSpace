@@ -1,0 +1,13 @@
+package abstraction;
+
+abstract public class Animal {
+	
+	public Animal() {
+			System.out.println("Inside animal constructor");
+	}
+	abstract protected void makeSound();
+	
+	abstract protected void eat();
+	
+	abstract protected void walk();
+}
