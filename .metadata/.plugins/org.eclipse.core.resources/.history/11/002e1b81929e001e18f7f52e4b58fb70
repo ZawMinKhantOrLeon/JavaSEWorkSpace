@@ -1,0 +1,20 @@
+package assignments.assignment2;
+
+public class Cat {
+		
+	public void eat() {
+		
+	}
+	
+	public void sleep() {
+		
+	}
+	
+	public void walk() {
+		
+	}
+	
+	public void scratch() {
+		
+	}
+}
