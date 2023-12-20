@@ -1,0 +1,14 @@
+package nested_class;
+
+import nested_class.ArithmeticOperations.Addition;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Addition addition = new Addition();
+			
+	}
+
+}

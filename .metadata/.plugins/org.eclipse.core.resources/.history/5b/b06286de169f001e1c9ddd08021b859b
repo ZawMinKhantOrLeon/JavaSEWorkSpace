@@ -1,0 +1,24 @@
+package static_nested_class;
+
+public class Facebook {
+	
+	static private Integer maxFileSize=200;
+	private boolean shortVideo;
+	private int fileSize;
+	
+	static class VideoUploader{
+		
+		Facebook fb = new Facebook();
+		public void videoUpload() {
+				
+			if(fb.shortVideo) {
+				System.out.println("Your short video is uploaded");
+			}
+			else {
+				if(fb.fileSize <= Facebook.maxFileSize) {
+					
+				}
+			}
+		}
+	}
+}

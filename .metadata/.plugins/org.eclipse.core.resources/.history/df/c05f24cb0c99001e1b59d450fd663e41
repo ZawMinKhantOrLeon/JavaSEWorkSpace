@@ -1,6 +1,0 @@
-package prevent_inheritance;
-
-public class EmailServer {
-	
-	Email[] emailArray = new Email[10];
-}

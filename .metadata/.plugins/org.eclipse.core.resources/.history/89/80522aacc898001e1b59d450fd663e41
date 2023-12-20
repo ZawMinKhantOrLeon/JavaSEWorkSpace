@@ -1,9 +1,0 @@
-package inheritance;
-
-public class WebDeveloper extends Developer {
-
-	public void createWebApp() {
-		System.out.println(name + " creating web apps");
-	}
-
-}
