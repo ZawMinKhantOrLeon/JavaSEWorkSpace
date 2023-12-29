@@ -1,0 +1,27 @@
+package inner_nested_class;
+
+public class LocalClassTest {
+	
+	static void checkPhoneNumber(String phNo1,String phNo2) {
+			
+		class classPhoneNoChecker{
+			long phNo1Length = phNo1.length();
+			long phNo2Length = phNo2.length();
+			
+			boolean isPhNo1Valid() {
+				return phNo1.startsWith("09") && phNo1.length() == 1;
+			}
+			
+			boolean isPhNo2Valid() {
+				return phNo2.startsWith("09") && phNo2.length() == 1;
+			}
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+
+}

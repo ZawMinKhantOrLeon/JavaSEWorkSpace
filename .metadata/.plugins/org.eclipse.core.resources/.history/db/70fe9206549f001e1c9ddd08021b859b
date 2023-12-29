@@ -1,0 +1,19 @@
+package inner_nested_class;
+
+public class LocalClassTest {
+	
+	static void checkPhoneNumber(String phNo1,String phNo2) {
+			
+		class classPhoneNoChecker{
+			long phNo1Length = phNo1.length();
+			long phNo2Length = phNo2.length();
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+
+}
