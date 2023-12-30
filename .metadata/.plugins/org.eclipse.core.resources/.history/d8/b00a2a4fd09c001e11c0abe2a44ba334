@@ -1,9 +1,0 @@
-package abstraction.interface_test;
-
-public interface PowerSystem {
-	
-	 void powerOn();
-	 void powerOff();
-	 void restart();
-	 
-}

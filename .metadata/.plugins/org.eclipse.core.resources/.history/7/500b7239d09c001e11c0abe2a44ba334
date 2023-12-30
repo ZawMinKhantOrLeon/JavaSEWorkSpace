@@ -1,6 +1,0 @@
-package abstraction.interface_test;
-
-public interface PowerSystem {
-	
-	
-}
