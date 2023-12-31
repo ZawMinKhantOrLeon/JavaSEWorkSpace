@@ -1,6 +1,7 @@
 package data_structures;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayListTest {
 
@@ -14,38 +15,45 @@ public class ArrayListTest {
 		fruitList.add("Orange");
 		fruitList.add("Papaya");
 		fruitList.add("Kiwi");
-		fruitList.add("Kiwi");
-		fruitList.add("Kiwi");
-		fruitList.add("Kiwi");
-		fruitList.add("Kiwi");
-		fruitList.add("Kiwi");
-		fruitList.add("Kiwi");
-		fruitList.add("Kiwi");
 		
-		
-		ArrayList<String> newFruit = new ArrayList<String>();
-		newFruit.add("DragonFruit");
-		newFruit.add("Strawberry");
-		
-		
-		ArrayList<String> outOfStock = new ArrayList<String>();
-		outOfStock.add("Pineapple");
-		outOfStock.add("Kiwi");
-		
-		System.out.println(fruitList);
-		String orange = fruitList.get(3);
-		System.out.println("Orange : "+ orange);
-		
-		System.out.println("Containe Apple : " + fruitList.contains("Apple") );
-		System.out.println("Is FruitList Empty ? : "+ fruitList.isEmpty());
-		
-		fruitList.add(1, "Melon"); // add with index;
-		
-		fruitList.set(2, "Lyche");
+		//Collections.sort(fruitList); // sort by a to z
+		//Collections.reverse(fruitList); // sort by order;
+		Collections.shuffle(fruitList); 
+		System.out.println("Max Fruit : " + Collections.max(fruitList));
 		System.out.println(fruitList);
 		
-		fruitList.addAll(0, newFruit);
-		System.out.println(fruitList);
+//		fruitList.add("Kiwi");
+//		fruitList.add("Kiwi");
+//		fruitList.add("Kiwi");
+//		fruitList.add("Kiwi");
+//		fruitList.add("Kiwi");
+//		fruitList.add("Kiwi");
+//		fruitList.add("Kiwi");
+//		
+//		
+//		ArrayList<String> newFruit = new ArrayList<String>();
+//		newFruit.add("DragonFruit");
+//		newFruit.add("Strawberry");
+//		
+//		
+//		ArrayList<String> outOfStock = new ArrayList<String>();
+//		outOfStock.add("Pineapple");
+//		outOfStock.add("Kiwi");
+//		
+//		System.out.println(fruitList);
+//		String orange = fruitList.get(3);
+//		System.out.println("Orange : "+ orange);
+//		
+//		System.out.println("Containe Apple : " + fruitList.contains("Apple") );
+//		System.out.println("Is FruitList Empty ? : "+ fruitList.isEmpty());
+//		
+//		fruitList.add(1, "Melon"); // add with index;
+//		
+//		fruitList.set(2, "Lyche");
+//		System.out.println(fruitList);
+//		
+//		fruitList.addAll(0, newFruit);
+//		System.out.println(fruitList);
 		
 		
 		
