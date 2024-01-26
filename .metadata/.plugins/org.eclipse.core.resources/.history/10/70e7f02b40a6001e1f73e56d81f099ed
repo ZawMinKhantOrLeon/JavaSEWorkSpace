@@ -1,9 +1,0 @@
-package enumeration;
-
-public enum City {
-	YANGON,
-	MANDALAY,
-	NAYPYITAW,
-	SITGAING,
-	TAUNGGYI
-}

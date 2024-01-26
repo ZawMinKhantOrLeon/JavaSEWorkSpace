@@ -1,8 +1,0 @@
-package inner_nested_class;
-
-public interface Machine {
-	
-	public void Start() {
-		System.out.println("Machine is starting");
-	}
-}
